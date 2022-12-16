@@ -27,7 +27,7 @@ def determine_score(game_round):
 
 
 # Read data from input file and split by round
-with open(r'data\day_2_data.txt', 'r') as f:
+with open(r'data\day_2.txt', 'r') as f:
     game_rounds = f.read().splitlines()
 
 # Sum total points gained by following strategy

@@ -1,5 +1,5 @@
 # Read data from input file split by elf
-with open(r'data\day_1_data.txt', 'r') as f:
+with open(r'data\day_1.txt', 'r') as f:
     elves_calorie_list = f.read().split('\n\n')
 
 # Sum the total number of calories held by each elf and update the list

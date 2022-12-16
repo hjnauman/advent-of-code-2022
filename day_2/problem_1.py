@@ -32,7 +32,7 @@ def determine_score(game_round):
     return game_states_points[strategy_guide_choice] + choice_point[determine_choice(elf_choice, strategy_guide_choice)]
 
 # Read data from input file and split by round
-with open(r'data\day_2_data.txt', 'r') as f:
+with open(r'data\day_2.txt', 'r') as f:
     game_rounds = f.read().splitlines()
 
 # Sum total points gained by following strategy
