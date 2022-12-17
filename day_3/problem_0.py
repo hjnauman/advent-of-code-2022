@@ -13,7 +13,7 @@ def get_char_priority(char):
 def get_overlap_priority(rucksack):
     # Split rucksack into compartment
     compartment_0 = rucksack[0:int(len(rucksack)/2)]
-    compartment_1 = rucksack[int(len(rucksack)/2):-1]
+    compartment_1 = rucksack[int(len(rucksack)/2):]
 
     overlapping_char = get_overlap_char(compartment_0, compartment_1)
     
